@@ -1,5 +1,5 @@
 def caesarCipherEncryptor(string, key):
-    # Write your code here. ord(letter) = ascii value of letter
+    # Note: ord(letter) = ascii value of letter, chr(num) = ascii char associated with that num
 	str_new = ""
 	for char in range(len(string)):
 		temp = string[char]
